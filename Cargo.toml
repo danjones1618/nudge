@@ -1,0 +1,9 @@
+[package]
+name = "nudge"
+version = "0.1.0"
+edition = "2021"
+description = "Gently push your API into action."
+readme = "README.md"
+
+[dependencies]
+oas3 = { version = "0.16.1", features = ["yaml-spec"] }
